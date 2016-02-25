@@ -1,0 +1,27 @@
+.button {
+	&--search {
+		float: right;
+		margin-top: 7px;
+
+		a {
+			color: $color-shark;
+			float: left;
+			height: 48px;
+			text-decoration: none;
+			width: 48px;
+		}
+
+		.icon-search {
+			display: block;
+			text-align: center;
+
+			&:before {
+				font-size: 43px;
+			}
+		}
+
+		.menu & {
+			margin-right: 30px;
+		}
+	}
+}

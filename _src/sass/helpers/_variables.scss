@@ -1,0 +1,25 @@
+/*
+ * Colours
+ */
+
+$color-white: #fff;
+$color-gallery: #efefef;
+$color-shark: #1f2224;
+$color-razzle-dazzle-rose: #f64cd8;
+
+/*
+ * Fonts
+ */
+
+$font-primary: 'galano_grotesqueregular';
+$font-primary-light: 'galano_grotesquelight';
+$font-primary-bold: 'galano_grotesquebold';
+
+/*
+ * Mobile Menu
+ */
+
+$break-menu: 769px;
+$mobile-menu-background-color: #fff;
+$toolbar-height-in-pixels: 63;
+$toolbar-height: $toolbar-height-in-pixels + px;

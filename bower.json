@@ -1,0 +1,22 @@
+{
+  "name": "10lbgamer",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ben Palmer <hello@benpalmer.me>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "breakpoint-sass": "compass-breakpoint#^2.7.0"
+  }
+}

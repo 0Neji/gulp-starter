@@ -1,0 +1,33 @@
+.module--menu-primary {
+	padding-left: 14px;
+
+	li:not(.button) {
+		a:hover,
+		&.current-menu-item a,
+		&.current-menu-ancestor > a {
+			color: $color-razzle-dazzle-rose;
+		}
+
+		a {
+			background-color: $color-white;
+			color: $color-shark;
+			font-family: $font-primary-bold;
+			padding: 22px 16px; 
+			text-transform: uppercase;
+		}
+
+		li {
+			border-top: 1px solid $color-gallery;
+
+			a:hover,
+			&.current-menu-item a {
+				background-color: $color-razzle-dazzle-rose;
+				color: $color-white;
+			}
+		}
+
+		ul ul {
+			margin-top: -1px;
+		}
+	}
+}

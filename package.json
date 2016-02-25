@@ -1,0 +1,31 @@
+{
+  "name": "10lbgamer",
+  "version": "2.0.0",
+  "description": "",
+  "author": "",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-refresh": "^1.0.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "browser": {
+    "placeholder": "./_src/js/vendor/jquery.placeholder.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {
+    "placeholder": {
+      "exports": "placeholder"
+    }
+  }
+}

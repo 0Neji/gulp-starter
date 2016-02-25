@@ -1,0 +1,13 @@
+.wrapper {
+	&--border-bottom {
+		border-bottom: 1px solid $color-gallery;
+	}
+
+	&--menu {
+		display: none;
+
+		@include breakpoint(769px) {
+			display: block;
+		}
+	}
+}

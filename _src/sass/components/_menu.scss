@@ -1,0 +1,15 @@
+.sf-menu {
+	margin-bottom: 0;
+}
+
+.menu {
+	.icon-search {
+		float: right;
+
+		a {
+			@include hide-text();
+			height: 48px;
+			width: 48px;
+		}
+	}
+}

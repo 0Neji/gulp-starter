@@ -1,0 +1,28 @@
+html {
+	overflow-y: scroll !important;
+}
+
+body {
+	padding-top: $toolbar-height;
+
+	@include breakpoint($break-menu) {
+		padding-top: 0;
+	}
+}
+
+#content {
+	background-color: #fff;
+	margin-top: $toolbar-height;
+
+	@include breakpoint($break-menu) {
+		margin-top: 0;
+	}
+
+	.admin-bar & {
+		margin-top: $toolbar-height-in-pixels + 46 + px;
+
+		@include breakpoint($break-menu) {
+			margin-top: 32px;
+		}
+	}
+}
